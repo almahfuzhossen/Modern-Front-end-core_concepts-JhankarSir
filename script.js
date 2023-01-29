@@ -22,3 +22,27 @@ const getCountryHTML = ({name, flags, area, region}) => {
         </div>
     `
 }
+
+// option 2
+// const getCountryHTML = country =>{
+//     // option 1
+//     const {name, flags} = country;
+//     return `
+//         <div class="country">
+//             <h2>${name.common}</h2>
+//             <img src="${flags.png}">
+//         </div>
+//     `
+// }
+
+// option 1
+// const getCountryHTML = country =>{
+//     return `
+//         <div class="country">
+//             <h2>${country.name.common}</h2>
+//             <img src="${country.flags.png}">
+//         </div>
+//     `
+// }
+
+loadCountries();
