@@ -1,0 +1,1 @@
+/* The following are the benefits of using single-page applications. */
